@@ -4,9 +4,9 @@ import pickle
 
 # Load the trained model
 
-model = pickle.load(open('C:\\Users\\Hemant\\Downloads\\new_model_cp.pkl' , 'rb'))
+model = pickle.load(open('new_model_cp.pkl' , 'rb'))
 df = pd.read_csv("C:\\Users\\Hemant\\Desktop\\python\\project_car_price\\car data.csv")
-
+  
 
 # Define the user input interface
 st.title("Car Price Prediction")
